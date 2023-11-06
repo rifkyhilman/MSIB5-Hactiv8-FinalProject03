@@ -5,8 +5,17 @@
     --black: #000;
 }
 
+.main-container {
+    background: #e6e6e66e;
+}
+
 body {
     overflow-x: hidden;
+    width: 1440px;
+    height: 2392px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFF;
 }
 
 .navbar-list {
@@ -77,7 +86,7 @@ body {
     left: 32px;
     height: 102px;
     width: 42px;
-    top: -85px;
+    top: -79px;
 }
 
 .image-left {
@@ -103,9 +112,16 @@ body {
     position: relative;
     left: 77px;
     padding-right: 20px;
-    color: white;
-    background: var(--figma-color);
+    color: #FFF;
+    text-align: center;
+    font-family: Basic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
     top: -20px;
+    border: transparent;
 }
 
 .bulet2-gajelas {
@@ -114,7 +130,7 @@ body {
     height: 276px;
     border-radius: 276px;
     background: #F0F3FA;
-    left: -161px;
+    margin-left: -143px;
 }
 
 .about-us {
@@ -126,10 +142,9 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-top: 83px;
-    margin-left: 2em;
 }
 
-.body-2 p {
+.body-2 .pa {
     width: 823px;
     color: #2B2B2B;
     text-align: center;
@@ -142,13 +157,11 @@ body {
 }
 
 .line {
-    position: absolute;
-    z-index: 1;
-    width: 103px;
+    width: 109px;
     height: 2px;
     background: var(--figma-color);
-    right: 583px;
-    bottom: -71px;
+    margin-left: 628px;
+    transform: translateY(50px);
 }
 
 .pe {
@@ -159,13 +172,14 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 2em;
+
 }
 
 /* card */
 .body-3 {
     display: flex;
     justify-content: center;
+    margin-right: 81px;
 }
 
 .card {
@@ -245,4 +259,93 @@ body {
     font-weight: 400;
     line-height: normal;
     margin: 0 auto;
+}
+
+.text-a {
+    width: 155px;
+    height: 40px;
+    position: relative;
+    left: 0px;
+    padding-right: 0px;
+    color: white;
+    background: var(--figma-color);
+    top: 0px;
+    margin: auto auto 31px auto;
+}
+
+.body-4 {
+    width: 1440px;
+    height: unset;
+    background: #020E35;
+    margin-top: -332px;
+}
+
+.our-work {
+    color: #FFF;
+    text-align: center;
+    font-family: Basic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 9em;
+}
+
+.card-1 {
+    margin-top: 450px;
+    color: #fff;
+    display: flex;
+}
+
+.card-1 img {
+    width: 587px;
+    height: 390px;
+    background: #F09532;
+    margin: 0px 20px 0px 150px;
+}
+
+.content h2 h3 {
+    color: #FFF;
+    font-family: Basic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content h3 {
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.content p {
+    width: 492px;
+    color: #FFF;
+    font-family: Basic;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-2 {
+    text-align: right;
+}
+
+.card-2 {
+    margin: 100px 0 0 200px;
+}
+
+.card-2 img {
+    margin-left: 30px;
+}
+
+.card-3 {
+    margin-top: 100px;
+}
+
+.text-b {
+    margin: 70px 50% 50px 38%;
+    padding-left: 17px;
 }
