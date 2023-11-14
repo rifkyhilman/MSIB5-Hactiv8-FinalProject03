@@ -492,3 +492,22 @@ footer p {
     line-height: normal;
     margin-left: 100px;
 }
+
+.oval {
+    width: 76px;
+    height: 76px;
+    flex-shrink: 0;
+    fill: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    stroke-width: 2px;
+    stroke: #FFF;
+    margin-left: 1317px;
+    margin-top: -42px;
+}
+
+.arrow {
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    margin-left: 1343px;
+    margin-top: -78px;
+}
